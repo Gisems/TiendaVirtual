@@ -1,8 +1,8 @@
 :root {
     --primario: #e2c3e7;
     --primarioOscuro: #c148d6;
-    --secundario: #f3db7d;
-    --segundarioOscuro: rgb(233,287,2);
+    --secundario: #414040;
+    --segundarioOscuro: #b3b3b3b9;
     --blanco: #FFF;
     --negro: #000;
    
@@ -112,6 +112,7 @@ h3{
 /**Producto**/
 .producto{
     background-color: var(--primarioOscuro);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     padding: 1rem;
 }
 .producto__nombre{
@@ -207,6 +208,11 @@ h3{
 }
 .bloque__titulo{
     margin: 0;
+}
+.bloque__imagen{
+    background-color: var(--segundarioOscuro);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 0.5rem;
 }
 
 /*Página del Producto*/
